@@ -1,0 +1,73 @@
+/*img*/
+.z-in img{
+	position:relative;
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:100vh;
+}
+.z-in h2{
+	position:absolute;
+	z-index:1;
+	color:#000;
+	bottom:8%;
+	right:5%;
+	font-size:3rem;
+	text-decoration:underline;
+}
+.over{
+	background-color:#4388a0;
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-wrap:wrap;
+}
+.hid{
+	margin:2%;
+	background-color:#e7eaea;
+	width:42%;
+	height:30vh;
+	border-radius:0.6rem;
+	overflow:hidden;
+	padding:2%;
+}
+.cli{
+	margin:2%;
+	background-color:#e7eaea;
+	width:42%;
+	height:30vh;
+	border-radius:0.6rem;
+	overflow:clip;
+	padding:2%;
+}
+.scr{
+	margin:2%;
+	background-color:#e7eaea;
+	width:42%;
+	height:30vh;
+	border-radius:0.6rem;
+	overflow:scroll;
+	padding:2%;
+}
+.aut{
+	margin:2%;
+	background-color:#e7eaea;
+	width:42%;
+	height:30vh;
+	border-radius:0.6rem;
+	overflow:auto;
+	padding:2%;
+}
+.xy{
+	margin:2%;
+	background-color:#e7eaea;
+	width:42%;
+	height:30vh;
+	border-radius:0.6rem;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	padding:2%;
+}
+.over p{
+	font-size:1.5rem;
+}
